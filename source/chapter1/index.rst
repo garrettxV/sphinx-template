@@ -1,5 +1,5 @@
-React Notes
-===========
+Intro to React
+==============
 
 These are notes on react.
 These are other notes.
