@@ -20,7 +20,7 @@ export statement isn't forgotten as this is how components are imported to other
 
 .. code-block:: javascript
 
-   Import React, { Component } from 'react'
+    Import React, { Component } from 'react'
 
     class ClassComponent extends Component {
         render() {
@@ -30,7 +30,28 @@ export statement isn't forgotten as this is how components are imported to other
                 </div>
             )
         }
-   }
+    }
 
    export default ClassComponent
 
+The return statement inside of the component is where JSX (JavaScript XML) can be used to describe what the UI should
+look like, and it closely resembles HTML. It is written mostly like HTML but one of the more immediately identifiable
+differences is the fact that className is used to describe a class in JSX instead of class.
+
+.. code-block:: javascript
+
+        Import React, { Component } from 'react'
+
+        class ClassComponent extends Component {
+            render() {
+                return (
+                    <div className="container">
+				        <header className="header">
+				            <h1>Hello World</h1>
+				        </header>
+                    </div>
+                )
+            }
+        }
+
+   export default ClassComponent
