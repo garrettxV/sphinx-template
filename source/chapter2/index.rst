@@ -13,7 +13,6 @@ from React.
 
     Import React, { Component } from 'react';
 
-   :caption: React import statement.
 
 Once that is done we can build a class based component.
 
