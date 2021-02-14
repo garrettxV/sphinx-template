@@ -1,5 +1,5 @@
-Components
-==========
+React Components
+================
 
 As previously stated React components are either functional or class based.
 
