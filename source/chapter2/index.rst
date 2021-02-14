@@ -11,16 +11,17 @@ from React.
 
 .. code-block:: javascript
 
-    Import React, { Component } from 'react'
+    import React, { Component } from 'react'
 
 
 Once that is done we can build a class based component, and it begins to look like the code below. It's important that the
-export statement isn't forgotten as this is how components are imported to other components.
+export statement isn't forgotten as this is allows for components to be imported to other components and ultimately the final
+app component.
 
 
 .. code-block:: javascript
 
-    Import React, { Component } from 'react'
+    import React, { Component } from 'react'
 
     class ClassComponent extends Component {
         render() {
@@ -40,7 +41,7 @@ differences is the fact that className is used to describe a class in JSX instea
 
 .. code-block:: javascript
 
-        Import React, { Component } from 'react'
+        import React, { Component } from 'react'
 
         class ClassComponent extends Component {
             render() {
@@ -55,3 +56,28 @@ differences is the fact that className is used to describe a class in JSX instea
         }
 
    export default ClassComponent
+
+In order to render this component you should import it to your app component so that it is exported to the
+index.html document for rendering. Then you would nest it in the return statement of the App component
+
+.. code-block:: javascript
+
+    import React, { Component } from 'react'
+    import ClassComponent from 'filepath goes here '
+
+
+    class App extends Component {
+        render() {
+                return (
+                    <ClassComponent/>
+                )
+            }
+        }
+    }
+
+    export default App;
+
+This would in turn allow your component to be rendered in the index.html document.
+
+.. literalinclude:: index.html
+    :caption: test
