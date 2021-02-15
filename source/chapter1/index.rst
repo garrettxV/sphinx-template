@@ -9,7 +9,11 @@ to be stateless components whereas class based components are stateful component
 Requirements
 ------------
 
-In order to set up a React Environment you first need to have Node >= 10.16 and npm >= 5.6 installed. In order to do
+In order to set up a React environment you first need to have Node >= 10.16 and npm >= 5.6 installed. In order to do
 this refer to https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+Once this is complete you can set up your React environment with the following command
+
+    .. literalinclude:: info.txt
 
 
