@@ -79,3 +79,24 @@ index.html document for rendering. Then you would nest it in the return statemen
 This would in turn allow your component to be rendered in the index.html document inside of the div with an id of "root".
 
 .. literalinclude:: index.html
+
+Functional Components
+---------------------
+
+React functional components to not require any import statements at first in their basic form. They are simply defined as
+JavaScript arrow functions and take props as a parameter (more on this later).
+
+.. code-block:: javascript
+
+    const header = (props) => {
+        render() {
+            return (
+                <div>
+
+                </div>
+            )
+        }
+    }
+
+   export default ClassComponent
+
