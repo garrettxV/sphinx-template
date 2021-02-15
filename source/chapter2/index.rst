@@ -77,7 +77,6 @@ index.html document for rendering. Then you would nest it in the return statemen
 
     export default App;
 
-This would in turn allow your component to be rendered in the index.html document.
+This would in turn allow your component to be rendered in the index.html document inside of the div with an id of "root".
 
 .. literalinclude:: index.html
-    :caption: test
