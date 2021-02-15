@@ -73,7 +73,6 @@ index.html document for rendering. Then you would nest it in the return statemen
                 )
             }
         }
-    }
 
     export default App;
 
