@@ -10,6 +10,6 @@ Requirements
 ------------
 
 In order to set up a React Environment you first need to have Node >= 10.16 and npm >= 5.6 installed. In order to do
-this refer to `Link this link <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`
+this refer to https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 
