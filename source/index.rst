@@ -1,7 +1,8 @@
-Sample Sphinx Project
+React Tutorial
 =====================
 
-Fill in  this text with your own intro text
+This is an introductory React tutorial for people that
+are interested in learning about the JavaScript library.
 
 .. toctree::
    :maxdepth: 1
