@@ -1,5 +1,5 @@
-Intro to React
-==============
+Getting Started With React
+==========================
 
 React is a JavaScript library that is used to build user interfaces. React runs on the client as a single page
 application, and can be used to build full stack applications, which is an application that includes both front end and
