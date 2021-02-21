@@ -37,6 +37,7 @@ sets up your React environment and that environment is given a name. Once these 
 or change directory into your application directory or folder. Once you're in your application directory you can now
 run the command npm start which will allow you to view your React application from your localhost server. In order to get
 started with actually building your application you'll need to install a text editor if you haven't already, and open
-your app directory in the text editor. I recommend `Visual Studio Code <https://code.visualstudio.com/>`_ for this purpose.
+your app directory in the text editor. I recommend `Visual Studio Code <https://code.visualstudio.com/>`_ for this purpose,
+but you can use any text editor that you'd like.
 
 
