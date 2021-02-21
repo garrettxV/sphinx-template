@@ -14,7 +14,7 @@ Requirements
 ------------
 
 In order to set up a React environment you first need to have Node.js >= 10.16 and npm >= 5.6 installed. In order
-to do this refer to `this link <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`_ Node.js is a JavaScript runtime
+to do this refer to `this link <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`_. Node.js is a JavaScript runtime
 environment that contains everything that is necessary in order to execute programs written in JavaScript. Node.js took
 JavaScript from a language that could only be ran in the browser to a language that has the capability to run locally on
 your machine in standalone applications. Node package manager, or npm contains packages that are used in order to make
