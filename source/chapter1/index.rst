@@ -107,11 +107,23 @@ What are Node.js, NPM, and Create React App
 
     .. image:: react-app_png.*
 
-* If you see the the page above in your browser you're now running your react app from your localhost server.
+* If you see the page above in your browser you're now running your react app from your localhost server.
 * In order to get started with actually building your application you'll need to install a text editor if you haven't
-already, and open your app directory in the text editor.
-* I recommend `Visual Studio Code <https://code.visualstudio.com/>`_ for this purpose, but you can use any text editor
-that you'd like.
-* I'll be using Visual Studio Code for the purposes of this tutorial.
+  already, and open your app directory in the text editor.
+* I recommend `Visual Studio Code <https://code.visualstudio.com/>`_ for this purpose, and that's what will be used for
+  remainder of the tutorial.
+
+Visual Studio Code
+------------------
+
+* After you've managed to install Visual Studio Code through the link provided above open the application.
+* Next you should see a welcome page and under start you'll see open folder click that and locate your React app
+  directory on your machine.
+* Click the directory folder and click open.
+* Now you should see the following in Visual Studio Code.
+
+    .. image:: VS-Code.*
+
+
 
 
