@@ -47,8 +47,8 @@ Requirements
   and these commands will be executed in the terminal or command line on your machine.
 * In the following example my-app refers to the name of your application folder, which can be any name that you choose.
 
-    :caption: Create React App commands
     .. literalinclude:: info.txt
+        :caption: Create React App commands
 
 * In the above commands npx is used in order to allow easy access to the create react app CLI.
 * the create react app CLI sets up your React environment and that environment is given a name.
