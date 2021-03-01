@@ -84,8 +84,8 @@ What are Node.js, NPM, and Create React App
     .. image:: react-app_png.*
 
 * If you see the the page above in your browser you're now running your react app from your localhost server.
-* In order to get started with actually building your application you'll need to install a text editor if you haven't already, and open
-your app directory in the text editor.
+* In order to get started with actually building your application you'll need to install a text editor if you haven't
+already, and open your app directory in the text editor.
 * I recommend `Visual Studio Code <https://code.visualstudio.com/>`_ for this purpose, but you can use any text editor that you'd like.
 
 
