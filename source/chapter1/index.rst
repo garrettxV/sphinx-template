@@ -5,17 +5,26 @@ What is React?
 --------------
 
 * React is a JavaScript library that is used to build user interfaces.
+
 * React runs on the client as a single page application, and can be used to build full stack applications, which is an
   application that includes both front end and back end code, and code that links the front end to the back end.
+
 * Backend code is server side code which involves the code that communicates between the database and the browser.
+
 * Front end code involves coding the user interface, which is what the user interacts with directly and that's what will
   be dealt with in this tutorial.
+
 * React is component based and each component manages it's own state.
+
 * Components are used in conjunction with one another to create complex user interfaces.
+
 * Components can be functional components, or class based components. Functional components are
   considered to be stateless components whereas class based components are stateful components.
+
 * There is a one way flow of data in React applications where data flows from parent to children.
+
 * Data is transferred to children through props which is short for properties.
+
 * State is an object that controls how a component renders based on a change in the data,
   and it can be passed down through props in order to control it from children components.
 
