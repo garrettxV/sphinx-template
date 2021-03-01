@@ -81,7 +81,7 @@ What are Node.js, NPM, and Create React App
 * Once these commands are completed you should have changed directories into your application folder and you should see
   the following in your browser.
 
-    .. image:: react-app.*
+    .. image:: react-app_png.*
 
 * Once you're in your application directory you can now
 run the command npm start which will allow you to view your React application from your localhost server. In order to get
