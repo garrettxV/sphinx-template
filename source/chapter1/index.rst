@@ -23,8 +23,23 @@ What is React?
 Requirements
 ------------
 
-* In order to set up a React environment you first need to have Node.js >= 10.16 and npm >= 5.6 installed.
-* In order to do this refer to `this link <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`_.
+In order to set up a React environment you first need to install a couple of things.
+
+    1. Node.js >= 10.16
+    2. npm >= 5.6
+
+First you should check whether or not Node.js and npm are already installed. in order to do this we can check with the
+following commands in the command prompt or terminal.
+
+    .. literalinclude:: node.txt
+        :caption: Node version command.
+
+    .. literalinclude:: npm.txt
+        :caption: NPM version command.
+
+Node.js, NPM, and Create React App
+----------------------------------
+
 * Node.js is a JavaScript runtime environment that contains everything that is necessary in order to execute programs
   written in JavaScript.
 * Node.js took JavaScript from a language that could only be ran in the browser to a language that has the capability to
