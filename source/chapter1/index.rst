@@ -19,6 +19,21 @@ What is React?
 * State is an object that controls how a component renders based on a change in the data,
   and it can be passed down through props in order to control it from children components.
 
+What This Tutorial Will Cover
+-----------------------------
+
+* Getting started with building react components (functional and class based).
+* Integrating components with other components through imports and nesting.
+* Examples of styling components with inline css in JSX (JavaScript XML), Styling with JavaScript variables, and
+  importing regular old CSS files into components.
+* The use of props in order to transfer data to child components with various examples.
+* The use of state in order to control how a component renders with various examples.
+* Passing state as props.
+* React Router which is a React library that can be used to control the rendering of components through links the omit
+  the necessity of a page refresh.
+
+
+
 
 Requirements
 ------------
