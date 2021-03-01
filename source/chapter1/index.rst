@@ -24,7 +24,7 @@ Requirements
 ------------
 
 In order to set up a React environment you first need to install a `couple of things <https://docs.npmjs.com/downloading-and-installing-node-js-and-npm>`_.
-There are details on these requirements in the section the next section.
+There are details on these requirements in the next section.
 
     1. Node.js >= 10.16
     2. npm >= 5.6
@@ -40,7 +40,7 @@ displaying which versions you have.
         :caption: NPM version command.
 
 If these requirements are not installed or your current versions aren't up to snuff then run the following command in
-order to install or update each.
+order to install or update each. This will install each globally on your machine.
 
     .. literalinclude:: node_npm_install.txt
         :caption: Node and NPM installation global command.
