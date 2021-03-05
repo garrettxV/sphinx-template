@@ -105,7 +105,10 @@ What are Node.js, NPM, and Create React App
 * Once these commands are completed you should have changed directories into your application folder and you should see
   the following in your browser.
 
+
     .. image:: react-app_png.*
+        :caption: figure 1
+
 
 * If you see the page above in your browser you're now running your react app from your localhost server.
 * In order to get started with actually building your application you'll need to install a text editor if you haven't
@@ -122,7 +125,10 @@ Visual Studio Code
 * Click the directory folder and click open.
 * Now you should see the following in Visual Studio Code.
 
+
     .. image:: Welcome-React-Tutorial.*
+        :caption: figure 2
+
 
 Environment Setup
 -----------------
@@ -135,13 +141,19 @@ following.
   focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate the yarn.lock
   file under the explorer as shown in the image below.
 
+
     .. image:: yarn-lock.*
+        :caption: figure 3
+
 
 * To delete yarn.lock right click and select delete.
 * Next we'll open the index.html file located inside of the public folder. Upon opening we'll see our html boiler plate
   code
 
+
     .. image:: index-html.*
+        :caption: figure 4
+
 
 * Here we'll want to remove all the commented out text along with all of the link tags. Also go ahead and remove the meta
   tag that includes the theme-color. When you're finished it should look like the image below. Also inside the title tag
@@ -149,6 +161,10 @@ following.
   This is the container that will hold our react application. It's how we actually display the contents of our app in the
   browser.
 
+
     .. image:: clean-up-html.*
+        :caption: figure 5
+
+
 
 
