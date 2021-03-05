@@ -192,6 +192,11 @@ Next we'll go ahead and install a couple of packages that will be necessary for 
     .. literalinclude:: react-router.txt
         :caption: Install React Router
 
+* Upon completion of the installation locate the package.json file at the bottom of your src folder and open it.
+* Upon opening you should see that react-router-dom has been added to the list of dependencies.
+
+    .. image:: package-json.*
+
 
 
 
