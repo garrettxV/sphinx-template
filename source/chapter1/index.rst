@@ -163,7 +163,15 @@ sprucing up. The list of things we'll do to setup our project in this step inclu
 * Next referring to the image above where we deleted yarn.lock we'll want to delete the two .png images in the public
   folder along with favicon.io, and robots.txt.
 * Upon completion of that (again referring to the image where we deleted yarn.lock) we'll then want to delete app.test.js
-  in the src folder along with app.css and setupTests.js. They won't be necessary for this tutorial.
+  in the src folder along with app.css and setupTests.js. They won't be necessary for this tutorial. Don't be alarmed if
+  it fails to compile at this point as it is normal and we'll fix this in the next step.
+* Next we'll open up App.js which is located in the src folder and clean that up by removing the two import statements
+  at the top of the document along with everything inside of the div with a className of App. Upon completion of that
+  App.js should look like the image below.
+
+
+    .. image:: App-function.*
+
 
 
 
