@@ -107,7 +107,6 @@ What are Node.js, NPM, and Create React App
 
 
     .. image:: react-app_png.*
-        :caption: figure 1
 
 
 * If you see the page above in your browser you're now running your react app from your localhost server.
@@ -127,7 +126,6 @@ Visual Studio Code
 
 
     .. image:: Welcome-React-Tutorial.*
-        :caption: figure 2
 
 
 Environment Setup
@@ -143,7 +141,6 @@ following.
 
 
     .. image:: yarn-lock.*
-        :caption: figure 3
 
 
 * To delete yarn.lock right click and select delete.
@@ -152,7 +149,6 @@ following.
 
 
     .. image:: index-html.*
-        :caption: figure 4
 
 
 * Here we'll want to remove all the commented out text along with all of the link tags. Also go ahead and remove the meta
@@ -163,8 +159,6 @@ following.
 
 
     .. image:: clean-up-html.*
-        :caption: figure 5
-
 
 
 
