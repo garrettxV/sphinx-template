@@ -128,14 +128,19 @@ Environment Setup
 -----------------
 
 Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use later
-on. The list of things we'll do to setup our project in this step include.
+on. The list of things we'll do to setup our project in this step include the following.
 
-*Deleting the yarn.lock file as we'll be using npm for this tutorial yarn is a package manger much like npm but we'll be
+* Deleting the yarn.lock file as we'll be using npm for this tutorial yarn is a package manger much like npm but we'll be
 focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate yarn.lock in
 under the explorer as shown in the image below.
 
     .. image:: yarn-lock.*
 
+* To delete the file right click and select delete.
+* Next we'll open the index.html file located inside of the public folder. Upon opening we'll see our html boiler plate
+  code
+
+    .. image:: index-html.*
 
 
 
