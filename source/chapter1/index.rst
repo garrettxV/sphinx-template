@@ -162,9 +162,8 @@ following.
        :width: 200px
        :align: center
        :alt: html clean up
-       :figclass: html-clean-up
+       :caption: figure 5
 
-        figure 5
 
 
 
