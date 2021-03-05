@@ -173,6 +173,21 @@ sprucing up. The list of things we'll do to setup our project in this step inclu
 
     .. image:: App-function.*
 
+If you've followed all of the steps correctly the code should compile and you should see a blank screen in the browser.
+
+Package Installation
+--------------------
+
+Next we'll go ahead and install a couple of packages that will be necessary for this tutorial, and these packages include
+
+    1. `React Router Dom <https://www.npmjs.com/package/react-router-dom>`_
+    2. `React Icons <https://react-icons.github.io/react-icons/icons?name=gi>`_
+
+* React Router will be solely used in this case to seamlessly route between components without the need for a page refresh
+  and if you are curious about delving into it more you can refer to `this link <https://reactrouter.com/web/api/Route/exact-bool>`_.
+* In order to install React Router Dom you'll need to open a new terminal in Visual Studio.
+* You can do this by locating terminal in the toolbar. Click terminal and select open new terminal
+
 
 
 
