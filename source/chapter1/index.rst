@@ -158,10 +158,7 @@ following.
   browser.
 
 
-    .. figure:: clean-up-html.png
-       :width: 200px
-       :align: center
-       :alt: html clean up
+    .. literalinclude:: clean-up-html.png
        :caption: figure 5
 
 
