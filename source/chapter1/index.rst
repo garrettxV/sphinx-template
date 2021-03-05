@@ -158,7 +158,8 @@ following.
   browser.
 
 
-    .. image:: clean-up-html.*
+    .. figure:: clean-up-html.*
+        :caption: figure 5
 
 
 
