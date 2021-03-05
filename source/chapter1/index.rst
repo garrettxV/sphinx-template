@@ -133,7 +133,7 @@ Clean Up
 
 Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use
 throughout the course of this tutorial. The use of Create React App is a great convenience, but it does require some
-sprucing up. The list of things we'll do to setup our project in this step include the following.
+sprucing up. In the next steps of this tutorial we'll do just that.
 
 * Deletion of the yarn.lock file as we'll be using npm for this tutorial.
 * Yarn is a package manger much like npm but we'll be focusing on the use of npm, and using both yarn and npm together
