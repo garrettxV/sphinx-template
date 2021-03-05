@@ -122,9 +122,8 @@ Visual Studio Code
 * Click the directory folder and click open.
 * Now you should see the following in Visual Studio Code.
 
-    .. image:: Welcome-React-Tutorial*
+    .. image:: Welcome-React-Tutorial.*
 
-dfdfdfdfdf
 
 
 
