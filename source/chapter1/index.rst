@@ -134,7 +134,7 @@ on. The list of things we'll do to setup our project in this step include.
 focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate yarn.lock in
 under the explorer as shown in the image below.
 
-    .. image:: react-app_png.*
+    .. image:: yarn-lock.*
 
 
 
