@@ -186,7 +186,13 @@ Next we'll go ahead and install a couple of packages that will be necessary for 
 * React Router will be solely used in this case to seamlessly route between components without the need for a page refresh
   and if you are curious about delving into it more you can refer to `this link <https://reactrouter.com/web/api/Route/exact-bool>`_.
 * In order to install React Router Dom you'll need to open a new terminal in Visual Studio.
-* You can do this by locating terminal in the toolbar. Click terminal and select open new terminal
+* You can do this by locating terminal in the toolbar. Click terminal and select open new terminal.
+* Next you'll type in the following command which will use npm to install react router dom package.
+
+    .. literalinclude:: react-router.txt
+        :caption: Install React Router
+
+
 
 
 
