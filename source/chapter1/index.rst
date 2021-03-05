@@ -132,8 +132,8 @@ Environment Setup
 -----------------
 
 Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use
-throughout the course of this tutorial. The list of things we'll do to setup our project in this step include the
-following.
+throughout the course of this tutorial. The use of Create React App is a great convenience, but it does require some
+sprucing up. The list of things we'll do to setup our project in this step include the following.
 
 * Deletion of the yarn.lock file as we'll be using npm for this tutorial. Yarn is a package manger much like npm but we'll be
   focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate the yarn.lock
@@ -158,9 +158,12 @@ following.
   browser.
 
 
-    .. literalinclude:: clean-up-html.png
-       :caption: figure 5
+    .. image:: clean-up-html.*
 
+* Next referring to the image above where we deleted yarn.lock we'll want to delete the two .png images in the public
+  folder along with favicon.io, and robots.txt.
+* Upon completion of that (again referring to the image where we deleted yarn.lock) we'll then want to delete app.test.js
+  in the src folder along with app.css and setupTests.js. They won't be necessary for this tutorial.
 
 
 
