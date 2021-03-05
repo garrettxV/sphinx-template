@@ -127,21 +127,28 @@ Visual Studio Code
 Environment Setup
 -----------------
 
-Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use later
-on. The list of things we'll do to setup our project in this step include the following.
+Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use
+throughout the course of this tutorial. The list of things we'll do to setup our project in this step include the
+following.
 
-* Deleting the yarn.lock file as we'll be using npm for this tutorial yarn is a package manger much like npm but we'll be
-focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate yarn.lock in
-under the explorer as shown in the image below.
+* Deletion of the yarn.lock file as we'll be using npm for this tutorial. Yarn is a package manger much like npm but we'll be
+  focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate the yarn.lock
+  file under the explorer as shown in the image below.
 
     .. image:: yarn-lock.*
 
-* To delete the file right click and select delete.
+* To delete yarn.lock right click and select delete.
 * Next we'll open the index.html file located inside of the public folder. Upon opening we'll see our html boiler plate
   code
 
     .. image:: index-html.*
 
+* Here we'll want to remove all the commented out text along with all of the link tags. Also go ahead and remove the meta
+  tag that includes the theme-color. When you're finished it should look like the image below. Also inside the title tag
+  you can give the application a title that seems fitting to you. Here you'll also notice a div with an id of "root".
+  This is the container that will hold our react application. It's how we actually display the contents of our app in the
+  browser.
 
+    .. image:: clean-up-html.*
 
 
