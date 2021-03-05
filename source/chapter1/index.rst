@@ -187,6 +187,8 @@ Next we'll go ahead and install a couple of packages that will be necessary for 
   and if you are curious about delving into it more you can refer to `this link <https://reactrouter.com/web/api/Route/exact-bool>`_.
 * In order to install React Router Dom you'll need to open a new terminal in Visual Studio.
 * You can do this by locating terminal in the toolbar. Click terminal and select open new terminal.
+* Also here's a couple of links for VS Code shortcuts for convenience. This one's for `Windows <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>`_,
+  and this one's for `Mac <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf?WT.mc_id=code-online-jopapa>`_.
 * Next you'll type in the following command which will use npm to install react router dom package.
 
     .. literalinclude:: react-router.txt
