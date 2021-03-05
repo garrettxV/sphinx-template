@@ -124,6 +124,18 @@ Visual Studio Code
 
     .. image:: Welcome-React-Tutorial.*
 
+Environment Setup
+-----------------
+
+Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use later
+on. The list of things we'll do to setup our project in this step include.
+
+*Deleting the yarn.lock file as we'll be using npm for this tutorial yarn is a package manger much like npm but we'll be
+focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate yarn.lock in
+under the explorer as shown in the image below.
+
+    .. image:: react-app_png.*
+
 
 
 
