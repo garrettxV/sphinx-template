@@ -128,16 +128,17 @@ Visual Studio Code
     .. image:: Welcome-React-Tutorial.*
 
 
-Environment Setup
+Clean Up
 -----------------
 
 Now we'll set up our React environment by doing some cleanup and installing some necessary packages that we'll use
 throughout the course of this tutorial. The use of Create React App is a great convenience, but it does require some
 sprucing up. The list of things we'll do to setup our project in this step include the following.
 
-* Deletion of the yarn.lock file as we'll be using npm for this tutorial. Yarn is a package manger much like npm but we'll be
-  focusing on the use of npm, and using both yarn and npm together is subject to conflicts. To do this locate the yarn.lock
-  file under the explorer as shown in the image below.
+* Deletion of the yarn.lock file as we'll be using npm for this tutorial.
+* Yarn is a package manger much like npm but we'll be focusing on the use of npm, and using both yarn and npm together
+  is subject to conflicts.
+* To do this locate the yarn.lock file under the explorer as shown in the image below.
 
 
     .. image:: yarn-lock.*
@@ -152,10 +153,10 @@ sprucing up. The list of things we'll do to setup our project in this step inclu
 
 
 * Here we'll want to remove all the commented out text along with all of the link tags. Also go ahead and remove the meta
-  tag that includes the theme-color. When you're finished it should look like the image below. Also inside the title tag
-  you can give the application a title that seems fitting to you. Here you'll also notice a div with an id of "root".
-  This is the container that will hold our react application. It's how we actually display the contents of our app in the
-  browser.
+  tag that includes the theme-color. When you're finished it should look like the image below.
+* Also inside the title tag you can give the application a title that seems fitting to you.
+* Here you'll also notice a div with an id of "root". This is the container that will hold our react application. It's
+  how we actually display the contents of our app in the browser.
 
 
     .. image:: clean-up-html.*
