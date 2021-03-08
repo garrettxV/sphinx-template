@@ -44,7 +44,8 @@ differences is the fact that className is used to describe a class in JSX instea
 .. code-block:: javascript
     :caption: Example of JSX
     :linenos:
-    :emphasize-lines: 1
+    :emphasize-lines:
+.. code-block:: javascript
 
     import React, { Component } from 'react'
 
