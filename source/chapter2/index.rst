@@ -110,11 +110,12 @@ Class Based Component Implementation
     export default App;
 
 * This would in turn allow your component to be rendered in the index.html document inside of the div with an id of "root".
+
+.. literalinclude:: index.html
+
 * After this step run npm or refresh the browser and it should look like the image below.
 
     .. image:: hello-world.*
-
-.. literalinclude:: index.html
 
 Functional Components
 ---------------------
