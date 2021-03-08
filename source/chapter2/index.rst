@@ -24,8 +24,8 @@ Class Based Component Set Up
 Class Based Component Implementation
 ------------------------------------
 
-In order to use class based components one must first use the following syntax in order to import the component class
-from React, so add this to the top of the file.
+* In order to use class based components one must first use the following syntax in order to import the component class
+  from React, so add this to the top of the file.
 
 .. code-block:: javascript
     :caption: Importing Component
@@ -97,7 +97,7 @@ from React, so add this to the top of the file.
     :emphasize-lines: 2,7
 
     import React, { Component } from 'react'
-    import ClassComponent from 'filepath goes here '
+    import ClassComponent from './ClassComponent/ClassComponent'
 
     class App extends Component {
         render() {
