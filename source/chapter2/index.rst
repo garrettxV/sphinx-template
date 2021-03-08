@@ -12,14 +12,12 @@ from React.
 
 .. code-block:: javascript
     :caption: Importing Component
-    :linenos:
-    :emphasize-lines: 1
 
     import React, { Component } from 'react'
 
 
 Once that is done we can build a class based component, and it begins to look like the code below. It's important that the
-export statement isn't forgotten as this is allows for components to be imported to other components and ultimately the final
+export statement isn't forgotten as this allows for components to be imported to other components and ultimately the final
 app component.
 
 
@@ -44,6 +42,10 @@ look like, and it closely resembles HTML. It is written mostly like HTML but one
 differences is the fact that className is used to describe a class in JSX instead of class.
 
 .. code-block:: javascript
+    :caption: Example of JSX
+    :linenos:
+    :emphasize-lines: 4,11
+
 
         import React, { Component } from 'react'
 
