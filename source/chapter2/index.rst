@@ -22,6 +22,7 @@ app component.
 
 
 .. code-block:: javascript
+    :caption: Class Based Component
 
     import React, { Component } from 'react'
 
@@ -44,7 +45,7 @@ differences is the fact that className is used to describe a class in JSX instea
 .. code-block:: javascript
     :caption: Example of JSX
     :linenos:
-    :emphasize-lines: 5,6,7,8,9,10
+    :emphasize-lines: 6,7,8,9,10,11
 
     import React, { Component } from 'react'
 
@@ -60,14 +61,9 @@ differences is the fact that className is used to describe a class in JSX instea
         }
     }
 
-
-
-
-
-
+export default ClassComponent;
 export default ClassComponent;
 
-export default ClassComponent;
 
 In order to render this component you should import it to your app component so that it is exported to the
 index.html document for rendering. Then you would nest it in the return statement of the App component
