@@ -44,24 +44,30 @@ differences is the fact that className is used to describe a class in JSX instea
 .. code-block:: javascript
     :caption: Example of JSX
     :linenos:
-    :emphasize-lines: 4,11
+    :emphasize-lines: 1
 
+    import React, { Component } from 'react'
 
-        import React, { Component } from 'react'
-
-        class ClassComponent extends Component {
-            render() {
-                return (
-                    <div className="container">
-				        <header className="header">
-				            <h1>Hello World</h1>
-				        </header>
-                    </div>
-                )
-            }
+    class ClassComponent extends Component {
+        render() {
+            return (
+                <div>
+                    <header className="header">
+                        <h1>Hello World</h1>
+                    </header>
+                </div>
+            )
         }
+    }
 
-   export default ClassComponent
+
+
+
+
+
+export default ClassComponent;
+
+export default ClassComponent;
 
 In order to render this component you should import it to your app component so that it is exported to the
 index.html document for rendering. Then you would nest it in the return statement of the App component
@@ -89,7 +95,7 @@ This would in turn allow your component to be rendered in the index.html documen
 Functional Components
 ---------------------
 
-React functional components to not require any import statements at first in their basic form. They are simply defined as
+React functional components do not require any import statements at first in their basic form. They are simply defined as
 JavaScript arrow functions and take props as a parameter (more on this later).
 
 .. code-block:: javascript
