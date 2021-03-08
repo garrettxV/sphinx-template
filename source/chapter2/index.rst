@@ -126,7 +126,11 @@ Introduction to props
 
     .. image:: prop-variable.*
 
+* Once this is done we can pass the variable as a prop into the ClassComponent with the following underlined syntax.
 
+    .. image:: passing-prop.*
+
+* We essentially name the prop and set it equal to its JSX value inside curly braces.
 
 
 
