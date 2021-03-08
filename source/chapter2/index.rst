@@ -117,6 +117,19 @@ Class Based Component Implementation
 
     .. image:: hello-world.*
 
+Introduction to props
+---------------------
+* Props or properties are how we transfer data down to child components.
+* We can use props to pass many things down in React such as functions, variables, and array objects just to name a few.
+* Here we will create a variable that holds a string and pass it down as a prop from the App component to the
+  ClassComponent.
+
+    .. image:: prop-variable.*
+
+
+
+
+
 Functional Components
 ---------------------
 
