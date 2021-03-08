@@ -7,6 +7,14 @@ components in React can either be functional or class based.
 Class Based Components
 ----------------------
 
+* First we'll create a folder for our class based component and call it ClassComponent.
+* In order to do this you'll need to left click on the src folder and locate the new folder icon in the drop down.
+* Select new folder and name this folder ClassComponent.
+
+    .. image::create-folder*
+
+
+
 In order to use class based components one must first use the following syntax in order to import the component class
 from React.
 
