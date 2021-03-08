@@ -11,7 +11,7 @@ Class Based Components
 * In order to do this you'll need to left click on the src folder and locate the new folder icon in the drop down.
 * Select new folder and name this folder ClassComponent.
 
-    .. image::create-folder*
+    .. image::create-folder.*
 
 
 
