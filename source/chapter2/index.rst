@@ -87,14 +87,17 @@ from React, so add this to the top of the file.
     export default ClassComponent;
 
 
-In order to render this component you should import it to your app component so that it is exported to the
-index.html document for rendering. Then you would nest it in the return statement of the App component
+* In order to render this component you need to import it to your app component. so that it is exported to the
+index.html document for rendering.
+* In order to do this open the App.js file and add the highlighted code to the file.
 
 .. code-block:: javascript
+    :caption: Nesting Class Component In App Component
+    :linenos:
+    :emphasize-lines: 2,7
 
     import React, { Component } from 'react'
     import ClassComponent from 'filepath goes here '
-
 
     class App extends Component {
         render() {
