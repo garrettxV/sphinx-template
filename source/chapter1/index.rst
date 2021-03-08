@@ -199,6 +199,8 @@ Next we'll go ahead and install a package that will be necessary for this tutori
 * Upon opening you should see that react-router-dom has been added to the list of dependencies.
 
     .. image:: package-json.*
+       :height: 150px
+       :width: 400px
 
 
 
