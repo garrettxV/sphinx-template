@@ -1,8 +1,8 @@
 React Components
 ================
 
-Finally we are ready to start coding in React and we'll start off with the basics of components. As previously stated
-components in React can either be functional or class based.
+* Finally we are ready to start coding in React and we'll start off with the basics of components.
+* As previously stated components in React can either be functional or class based.
 
 Class Based Components
 ----------------------
@@ -11,7 +11,7 @@ Class Based Components
 * In order to do this you'll need to left click on the src folder and locate the new folder icon in the drop down.
 * Select new folder and name this folder ClassComponent.
 
-    .. image::create-folder.*
+    .. image:: create-folder.*
 
 
 
