@@ -4,8 +4,8 @@ React Components
 * Finally we are ready to start coding in React and we'll start off with the basics of components.
 * As previously stated components in React can either be functional or class based.
 
-Class Based Components
-----------------------
+Class Based Component Set Up
+----------------------------
 
 * First we'll create a folder for our class based component and call it ClassComponent.
 * In order to do this you'll need to left click on the src folder and locate the new folder icon in the drop down.
@@ -18,9 +18,14 @@ Class Based Components
 
     .. image:: add-file.*
 
+* After you've created the folder and file open the ClassComponent.js file. This is where the code from the next
+  section will be added.
+
+Class Based Component Implementation
+------------------------------------
 
 In order to use class based components one must first use the following syntax in order to import the component class
-from React.
+from React, so add this to the top of the file.
 
 .. code-block:: javascript
     :caption: Importing Component
@@ -28,10 +33,11 @@ from React.
     import React, { Component } from 'react'
 
 
-Once that is done we can build a class based component, and it begins to look like the code below. It's important that the
-export statement isn't forgotten as this allows for components to be imported to other components and ultimately the final
-app component.
-
+* Once that is done we can build a class based component, and it begins to look like the code below.
+* It's important that the export statement isn't forgotten as this allows for components to be imported to other
+  components and ultimately the final app component.
+* As you can see here we're defining our component as a class, giving the components a name, and extending the Component
+  class that we imported.
 
 .. code-block:: javascript
     :caption: Class Based Component
@@ -48,7 +54,7 @@ app component.
         }
     }
 
-   export default ClassComponent
+    export default ClassComponent;
 
 The return statement inside of the component is where JSX (JavaScript XML) can be used to describe what the UI should
 look like, and it closely resembles HTML. It is written mostly like HTML but one of the more immediately identifiable
