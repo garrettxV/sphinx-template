@@ -137,6 +137,10 @@ Introduction To Props
 
     .. image:: render-prop.*
 
+* Now we can refresh the browser window and you should now see the Hello World string that we passed as a prop to the h2
+  in ClassComponent.
+
+    .. image:: hello-world-h2.*
 
 Functional Components
 ---------------------
