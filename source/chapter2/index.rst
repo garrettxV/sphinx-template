@@ -13,6 +13,10 @@ Class Based Components
 
     .. image:: create-folder.*
 
+* Inside this folder we'll create a file called ClassComponent.js. To do this left click the folder and locate add file
+  in the drop down.
+
+    .. image:: add-file.*
 
 
 In order to use class based components one must first use the following syntax in order to import the component class
