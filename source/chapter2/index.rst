@@ -38,6 +38,7 @@ from React, so add this to the top of the file.
   components and ultimately the final app component.
 * As you can see here we're defining our component as a class, giving the components a name, and extending the Component
   class that we imported.
+* This import is necessary because all React class based components are children of the React Component class.
 
 .. code-block:: javascript
     :caption: Class Based Component
@@ -56,9 +57,13 @@ from React, so add this to the top of the file.
 
     export default ClassComponent;
 
-The return statement inside of the component is where JSX (JavaScript XML) can be used to describe what the UI should
-look like, and it closely resembles HTML. It is written mostly like HTML but one of the more immediately identifiable
-differences is the fact that className is used to describe a class in JSX instead of class.
+* The return statement inside of the component is where JSX (JavaScript XML) can be used to describe what the UI should
+  look like, and it closely resembles HTML.
+* It is written mostly like HTML but one of the more immediately identifiable differences is the fact that className
+  is used to describe a class in JSX instead of class (which is what we would use in HTML5).
+* This is the way that all HTML element attributes are written in JSX because JSX requires camel case for HTML attributes
+  and CSS selectors as well.
+* Go ahead and enter this code inside of the div in the return statement.
 
 .. code-block:: javascript
     :caption: Example of JSX
@@ -79,8 +84,7 @@ differences is the fact that className is used to describe a class in JSX instea
         }
     }
 
-export default ClassComponent;
-export default ClassComponent;
+    export default ClassComponent;
 
 
 In order to render this component you should import it to your app component so that it is exported to the
