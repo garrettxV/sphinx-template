@@ -88,7 +88,7 @@ from React, so add this to the top of the file.
 
 
 * In order to render this component you need to import it to your app component. so that it is exported to the
-index.html document for rendering.
+  index.html document for rendering.
 * In order to do this open the App.js file and add the highlighted code to the file.
 
 .. code-block:: javascript

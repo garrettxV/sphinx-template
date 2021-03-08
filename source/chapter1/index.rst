@@ -173,7 +173,11 @@ sprucing up. In the next steps of this tutorial we'll do just that.
 
     .. image:: App-function.*
 
-If you've followed all of the steps correctly the code should compile and you should see a blank screen in the browser.
+* If you've followed all of the steps correctly the code should compile and you should see a blank screen in the browser.
+* If you're ever having issues with the local host server simply locate node in the terminal and click the trash can icon.
+* After this run npm start again.
+
+    .. image:: restart-local-host.*
 
 Package Installation
 --------------------
