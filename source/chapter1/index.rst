@@ -178,10 +178,7 @@ If you've followed all of the steps correctly the code should compile and you sh
 Package Installation
 --------------------
 
-Next we'll go ahead and install a couple of packages that will be necessary for this tutorial, and these packages include
-
-    1. `React Router Dom <https://www.npmjs.com/package/react-router-dom>`_
-    2. `React Icons <https://react-icons.github.io/react-icons/icons?name=gi>`_
+Next we'll go ahead and install a package that will be necessary for this tutorial, and this package is `React Router Dom <https://www.npmjs.com/package/react-router-dom>`_
 
 * React Router will be solely used in this case to seamlessly route between components without the need for a page refresh
   and if you are curious about delving into it more you can refer to `this link <https://reactrouter.com/web/api/Route/exact-bool>`_.

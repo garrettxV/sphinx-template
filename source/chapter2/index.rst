@@ -1,7 +1,8 @@
 React Components
 ================
 
-As previously stated React components are either functional or class based.
+Finally we are ready to start coding in React and we'll start off with the basics of components. As previously stated
+components in React can either be functional or class based.
 
 Class Based Components
 ----------------------
@@ -10,6 +11,9 @@ In order to use class based components one must first use the following syntax i
 from React.
 
 .. code-block:: javascript
+    :caption: Importing Component
+    :linenos:
+    :emphasize-lines: 1
 
     import React, { Component } from 'react'
 
