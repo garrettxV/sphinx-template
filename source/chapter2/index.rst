@@ -167,7 +167,7 @@ Introduction To Props
 
 Introduction To State
 ---------------------
-* State in React is where you store component values that belong to a particular component.
+* State is an object in React, and it is used to store component values that belong to a particular component.
 * State is mostly used for values that change based upon certain conditions whereas props are static and unchanging.
   and this is the main difference between state and props in React.
 * State can be passed down as props if state values for a particular component need to be used in several components.
@@ -190,17 +190,20 @@ Introduction To State
 
 * Now we can create a function to change the value of the state component, and consequently change the colors of the h2
   component.
+* First we'll have to add a count property to our state object.
+* Then we implement our function and pass it into the button element in the return method of our class function.
 * Notice how we named the property in the button onClick. This is necessary because onClick is a built in function that
   allows our function to work upon clicking the button.
 * Also notice that it is necessary to wrap the CSS in curly braces in order for it to function.
 * This is because the CSS styles we're implementing are being interpreted as JavaScript.
+* Take note of the use of this in the syntax as well. In this case this refers to the state object and it allows us to interact
+  with the state objects values.
+* setState used in the colorChange arrow function is a built in function that we can use to change state values.
 
-    .. image:: class-state-color.*
+    .. image:: class-state-colorChange.*
 
-* Next we'll add another piece of state that functions as a counter.
-* We'll use this counter to change the alternate CSS styles based upon a certain condition.
 
-    .. image:: class-state-counter.*
+
 
 
 
