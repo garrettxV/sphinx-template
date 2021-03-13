@@ -155,10 +155,15 @@ Introduction To Props
 
     .. image:: hello-world-h2.*
 
-*  We can also pass CSS styles as props.
+* We can also pass CSS styles as props.
+* Here we'll create a variable called TextStyle and our value will be some CSS styling as shown below.
+* From here we'll pass it to our ClassComponent just as we passed the string variable.
 
     .. image:: css-props.*
 
+* After you've done this add the TextStyle to the h2 in ClassComponent.js.
+
+    .. image:: ClassComponent-css-props.*
 Functional Components
 ---------------------
 
