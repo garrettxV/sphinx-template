@@ -164,6 +164,42 @@ Introduction To Props
 * After you've done this add the TextStyle to the h2 in ClassComponent.js.
 
     .. image:: ClassComponent-css-props.*
+
+Introduction To State
+---------------------
+* State in React is where you store component values that belong to a particular component.
+* State is mostly used for values that change based upon certain conditions whereas props are static and unchanging.
+  and this is the main difference between state and props in React.
+* State can be passed down as props if state values for a particular component need to be used in several components.
+* Here we will create a piece of state to hold the color value of the ClassComponent as opposed to passing it as a prop
+  from the App component, so make sure that you return to the App component and remove the code that we used to pass
+  down the styles.
+* The app component should now look as it is depicted below.
+
+    .. image:: passing-prop.*
+
+* Now we can create our piece of state in ClassComponent.js and pass it into the h2 element.
+
+    .. image:: class-state.*
+
+* This will have the same effect as what we've done previously, but now we can use this state to apply some logic to how
+  the values will behave.
+* From here we'll add a button below the h2 element in the ClassComponent.
+
+    .. image:: class-state-button.*
+
+* Now we can create a function to change the value of the state component, and consequently change the colors of the h2
+  component.
+* Notice how we named the property in the button onClick. This is necessary because onClick is a built in function that
+  allows our function to work upon clicking the button.
+* Also notice that it is necessary to wrap the CSS in curly braces in order for it to function.
+* This is because the CSS styles we're implementing are being interpreted as JavaScript.
+
+    .. image:: class-state-color.*
+
+
+
+
 Functional Components
 ---------------------
 
