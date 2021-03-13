@@ -146,14 +146,18 @@ Introduction To Props
 * We essentially name the prop and set it equal to its JSX value inside curly braces.
 * After this we can head back over to the ClassComponent.js file and insert an h2 tag with the following code under the
   h1.
-* This will successfully pass our variable as a prop down from the App component to the ClassComponent.
+* This will successfully pass our variable as props down from the App component to the ClassComponent.
 
     .. image:: render-prop.*
 
-* Now we can refresh the browser window and you should now see the Hello World string that we passed as a prop to the h2
+* Now we can refresh the browser window and you should now see the Hello World string that we passed as props to the h2
   in ClassComponent.
 
     .. image:: hello-world-h2.*
+
+*  We can also pass CSS styles as props.
+
+    .. image:: css-props.*
 
 Functional Components
 ---------------------
