@@ -197,6 +197,11 @@ Introduction To State
 
     .. image:: class-state-color.*
 
+* Next we'll add another piece of state that functions as a counter.
+* We'll use this counter to change the alternate CSS styles based upon a certain condition.
+
+    .. image:: class-state-counter.*
+
 
 
 
