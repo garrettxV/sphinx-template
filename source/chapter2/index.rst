@@ -2,7 +2,20 @@ React Components
 ================
 
 * Finally we are ready to start coding in React and we'll start off with the basics of components.
+* React components are reusable pieces of code that function independently, but can be used in conjunction with other
+  components. They act as JavaScript functions and return HTML in the browser.
+* This is done through the use of JSX (JavaScript XML).
 * As previously stated components in React can either be functional or class based.
+* Class based components require us to extend the React Component class, and also require a render method to return HTML.
+* This gives access to React.Component's built in functions.
+* In class based components it is common to see the use of a constructor method to initialize state, but it isn't
+  necessary as state can be initialized without it.
+* Functional components require none of the requirements mentioned above, but have some other requirements instead such
+  as the use of React hooks.
+* When creating a component in React the name of the component needs to start with an uppercase letter.
+* An example of class based components will be shown in this tutorial, but functional components will be preferred.
+
+
 
 Class Based Component Set Up
 ----------------------------
