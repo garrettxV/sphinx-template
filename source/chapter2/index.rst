@@ -265,6 +265,20 @@ Functional Components
 
 * From here we'll import the useState hook in order to use state in our functional component.
 
+    .. image:: use-state.*
+
+* Now that we've imported the useState hook we can build out our pieces of state.
+* Here we'll be using two separate pieces. One for the styles that we'll pass to the h2, and one to use as our counter.
+
+    .. image:: use-state-2.*
+
+* Notice how syntactically different this is from our previous state in the ClassComponent.
+* First our state is defined as a variable, then we have to define a getter, and setter value inside of square brackets
+  in order to retrieve state values and set them.
+* Then we set it equal to the useState method and pass the desired properties into the method.
+* In this next step we'll see how we can use the getter(state) and setter(setState) values.
+
+    .. image:: use-state-3.*
 
 
 
