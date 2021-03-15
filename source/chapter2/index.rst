@@ -211,6 +211,19 @@ Introduction To State
 
     .. image:: color-change.*
 
+* We could also show the count in the HTML by adding it into a new h3 element tag and using the syntax this.state.count
+  in curly braces inside of the h3.
+* This will give us a value of zero shown on the screen, but as we click the color change button, we can watch the number
+  go up as the colorChange function increases its value.
+* Notice here that a new function has been added called decrement.
+* This function gives you the ability to count up and down, but notice that it doesn't affect the CSS styles of the h2
+  element.
+* This is because the decrement function is operating independently of the colorChange function and is not tied into its
+  logic.
+
+    .. image:: counter.*
+
+
 
 
 
