@@ -228,29 +228,27 @@ Introduction To State
     .. image:: counter.*
 
 
-
-
-
-
-
-
 Functional Components
 ---------------------
 
-React functional components do not require any import statements at first in their basic form. They are simply defined as
-JavaScript arrow functions and take props as a parameter (more on this later).
+* React functional components do not require any import statements at first in their basic form. They are simply defined
+  as JavaScript arrow functions and take props as a parameter.
+* Adding props as a parameter is necessary in order to pass props down to functional components.
+* Here you should follow the same steps that were required to add a folder and file for the ClassComponent except we're
+  going to call this new folder FunctionalComponent, and we'll call the file FunctionalComponent.js.
+* Here you should see a blank document, but we're going to quickly add a boilerplate for our functional component by
+  typing the shortcut "rafce" into the blank document and hitting enter.
+* This looks like the following below.
 
-.. code-block:: javascript
+    .. image:: functional-component.*
 
-    const header = (props) => {
-        render() {
-            return (
-                <div>
+* Once you hit enter it should show an arrow function with the corresponding name of our .js file as the name of our
+  function and an export statement should also be included.
 
-                </div>
-            )
-        }
-    }
+    .. image:: functional-component-boilerplate.*
 
-   export default ClassComponent
+* This boilerplate includes and import statement, but we do not need to import React here so it can stay or go.
+* First we want to make sure that props is passed in as a parameter like so.
+
+    .. image:: functional-component-props.*
 
