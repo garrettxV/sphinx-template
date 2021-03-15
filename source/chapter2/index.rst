@@ -206,6 +206,9 @@ Introduction To State
 
     .. image:: class-state-colorChange.*
 
+* Once the function is properly implemented you should be able to refresh the browser and alternate between a green font
+  with a white background, and a red font with a black background.
+
 
 
 
