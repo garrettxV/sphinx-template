@@ -221,6 +221,10 @@ Introduction To State
 * This is because the decrement function is operating independently of the colorChange function and is not tied into its
   logic.
 
+    .. image:: count-code.*
+
+* After the following steps refreshing your browser look like the following image.
+
     .. image:: counter.*
 
 
