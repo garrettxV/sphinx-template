@@ -280,5 +280,15 @@ Functional Components
 
     .. image:: use-state-3.*
 
+* Some of the syntax looks the same here as it does in the ClassComponent, but notice how we don't have to use this in
+  order to access the properties of our state.
+* Next we'll pass the state, and the colorChange function into the FunctionalComponent as props so that we can access
+  them within the functional component.
 
+    .. image:: use-state-4.*
 
+* Notice how we can use the getter value of the state and pass it as props.
+* Next we'll head back to FunctionalComponent.js, and add the code that will allow us to pass these values in and access
+  them.
+
+    .. image:: use-state-5.*
