@@ -247,8 +247,24 @@ Functional Components
 
     .. image:: functional-component-boilerplate.*
 
-* This boilerplate includes and import statement, but we do not need to import React here so it can stay or go.
+* This boilerplate includes an import statement, but we do not need to import React here so it can stay or go.
 * First we want to make sure that props is passed in as a parameter like so.
 
     .. image:: functional-component-props.*
+
+* Here we'll return to App.js and do the same exact thing as before, but this time we'll be using a functional component.
+* This will require the useState Hook, so we will have to import that.
+* We'll also be passing down our state and functions as props here so we can see what that looks like here.
+* First we'll comment out the ClassComponent that's nested in the return statement of the App function, and the import
+  ClassComponent statement at the top of the document.
+* This will be command + forward slash on mac, or ctrl + forward slash on windows.
+* Next we'll import the FunctionalComponent and nest it inside of the return statement in the App function.
+* Then we'll pass the TextProp into the FunctionalComponent.
+
+    .. image:: functional-component-props2.*
+
+* From here we'll import the useState hook in order to use state in our functional component.
+
+
+
 
