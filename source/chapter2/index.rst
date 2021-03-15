@@ -165,6 +165,10 @@ Introduction To Props
 
     .. image:: ClassComponent-css-props.*
 
+* Now you should see the following in the browser window.
+
+    .. image:: hello-world-color-change.*
+
 Introduction To State
 ---------------------
 * State is an object in React, and it is used to store component values that belong to a particular component.
