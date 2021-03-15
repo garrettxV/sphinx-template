@@ -223,7 +223,7 @@ Introduction To State
 
     .. image:: count-code.*
 
-* After the following steps refreshing your browser look like the following image.
+* After the following steps refreshing your browser show the following below.
 
     .. image:: counter.*
 
